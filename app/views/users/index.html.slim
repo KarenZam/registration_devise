@@ -1,0 +1,8 @@
+- @users.each do |s|
+  p #{s.name}
+
+  => link_to "Show", user_url(s), class: "btn btn-primary btn-xs"
+  => link_to "Edit", edit_user_url(s), class: "btn btn-info btn-xs"
+  => link_to "Delete", user_url(s), method: :delete, confirm: "Are you sure?", class: "btn btn-danger btn-xs"
+  br
+  br
